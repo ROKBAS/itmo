@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dnode": "^1.2.2",
+    "websocket": "^1.0.34"
+  }
+}

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./assets/fonts/roboto/roboto.css" />
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/robotoSlab/robotoslab.css"
+        />
+        <title>NewsExplorer</title>
+    </head>
+    <body>
+        <header class="header">
+            <span class="logo">NewsExplorer</span>
+            <div class="actions">
+                <nav class="nav">
+                    <span data-idx="0" class="home tab">Главная</span>
+                    <span data-idx="1" class="saved tab"
+                        >Сохранённые статьи</span
+                    >
+                </nav>
+                <button class="login">Авторизоваться</button>
+            </div>
+            <div class="burger">
+                <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <rect x="4" y="8" width="16" height="2" fill="white" />
+                    <rect x="4" y="14" width="16" height="2" fill="white" />
+                </svg>
+            </div>
+            <div class="header-menu">
+                <nav class="nav-menu">
+                    <span data-idx="0" class="home tab">Главная</span>
+                    <span data-idx="1" class="saved tab"
+                        >Сохранённые статьи</span
+                    >
+                </nav>
+                <button class="login">Авторизоваться</button>
+            </div>
+        </header>
+        <main>
+            <div class="home-tab">
+                <section class="top-content">
+                    <div class="top-content-wrapper">
+                        <h1>
+                            Что творится в <br />
+                            мире?
+                        </h1>
+                        <span class="descr"
+                            >Находите самые свежие статьи на любую тему и
+                            сохраняйте в <br />
+                            своём личном кабинете.</span
+                        >
+                        <div class="search-box">
+                            <input
+                                class="search-input"
+                                type="text"
+                                placeholder="Введите тему новости"
+                            />
+                            <button class="search-btn">Искать</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="news">
+                    <h2>Результаты поиска</h2>
+                    <div class="news-list">
+                        <div class="news-card">
+                            <div class="img-wrapper">
+                                <img
+                                    src="./assets/images/cardImages/image_02.png"
+                                    alt="news-card"
+                                />
+                            </div>
+                            <div class="content">
+                                <span class="date">2 августа, 2019</span>
+                                <h3 class="title">
+                                    «Первозданная тайга»: новый фотопроект Игоря
+                                    Шпиленка
+                                </h3>
+                                <p class="text">
+                                    Знаменитый фотограф снимает первозданные
+                                    леса России, чтобы рассказать о
+                                    необходимости их сохранения. В этот раз он
+                                    отправился в Двинско-Пинежскую тайгу, где...
+                                </p>
+                                <span class="source">Риа</span>
+                            </div>
+                            <div class="action">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M11.3822 15.7137L6 19.9425V4L18 4V19.9425L12.6178 15.7137L12 15.2283L11.3822 15.7137Z"
+                                        stroke="#B6BCBF"
+                                        stroke-width="2"
+                                    />
+                                </svg>
+                                <div class="action-wraning">
+                                    Войдите, чтобы сохранять статьи
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-card">
+                            <div class="img-wrapper">
+                                <img
+                                    src="./assets/images/cardImages/image_01.png"
+                                    alt="news-card"
+                                />
+                            </div>
+                            <div class="content">
+                                <span class="date">2 августа, 2019</span>
+                                <h3 class="title">
+                                    Лесные огоньки: история одной фотографии
+                                </h3>
+                                <p class="text">
+                                    ЗФотограф отвлеклась от освещения суровой
+                                    политической реальности Мексики, чтобы
+                                    запечатлеть ускользающую красоту одного из
+                                    местных чудес природы.
+                                </p>
+                                <span class="source">Медуза</span>
+                            </div>
+                            <div class="action">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M11.3822 15.7137L6 19.9425V4L18 4V19.9425L12.6178 15.7137L12 15.2283L11.3822 15.7137Z"
+                                        stroke="#B6BCBF"
+                                        stroke-width="2"
+                                    />
+                                </svg>
+                                <div class="action-wraning">
+                                    Войдите, чтобы сохранять статьи
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-card">
+                            <div class="img-wrapper">
+                                <img
+                                    src="./assets/images/cardImages/image_03.png"
+                                    alt="news-card"
+                                />
+                            </div>
+                            <div class="content">
+                                <span class="date">2 августа, 2019</span>
+                                <h3 class="title">
+                                    Национальное достояние – парки
+                                </h3>
+                                <p class="text">
+                                    В 2016 году Америка отмечала важный юбилей:
+                                    сто лет назад здесь начала складываться
+                                    система национальных парков – охраняемых
+                                    территорий, где и сегодня каждый может
+                                    приобщиться к природе.
+                                </p>
+                                <span class="source">Риа</span>
+                            </div>
+                            <div class="action">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M11.3822 15.7137L6 19.9425V4L18 4V19.9425L12.6178 15.7137L12 15.2283L11.3822 15.7137Z"
+                                        stroke="#B6BCBF"
+                                        stroke-width="2"
+                                    />
+                                </svg>
+                                <div class="action-wraning">
+                                    Войдите, чтобы сохранять статьи
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="show-more">Показать еще</button>
+                </section>
+                <section class="about-me">
+                    <div class="img-wrapper">
+                        <img src="./assets/images/ava.png" alt="avatar" />
+                    </div>
+                    <div class="info">
+                        <h2>Об авторе</h2>
+                        <p>
+                            Это блок с описанием автора проекта. Здесь следует
+                            указать, как вас <br />
+                            зовут, чем вы занимаетесь, какими технологиями
+                            разработки владеете.
+                        </p>
+                        <p>
+                            Также можно рассказать о процессе обучения в
+                            Практикуме, чему вы <br />
+                            тут научились, и чем можете помочь потенциальным
+                            заказчикам.
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <div class="saved-tab">
+                <section class="saved-main-content">
+                    <span class="section-name"> Сохранённые статьи </span>
+                    <h2 class="title">
+                        Грета, у вас 5 <br />
+                        сохранённых статей
+                    </h2>
+                    <span class="info"
+                        >По ключевым словам: <b>Природа, Тайга</b> и
+                        <b>2-м другим</b></span
+                    >
+                </section>
+                <section class="saved-news">
+                    <div class="news-list">
+                        <div class="news-card">
+                            <div class="img-wrapper">
+                                <img
+                                    src="./assets/images/cardImages/image_02.png"
+                                    alt="news-card"
+                                />
+                            </div>
+                            <div class="content">
+                                <span class="date">2 августа, 2019</span>
+                                <h3 class="title">
+                                    «Первозданная тайга»: новый фотопроект Игоря
+                                    Шпиленка
+                                </h3>
+                                <p class="text">
+                                    Знаменитый фотограф снимает первозданные
+                                    леса России, чтобы рассказать о
+                                    необходимости их сохранения. В этот раз он
+                                    отправился в Двинско-Пинежскую тайгу, где...
+                                </p>
+                                <span class="source">Риа</span>
+                            </div>
+                            <div class="action">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"
+                                        fill="#B6BCBF"
+                                    />
+                                </svg>
+                                <div class="action-wraning">
+                                    Убрать из сохранённых
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-card">
+                            <div class="img-wrapper">
+                                <img
+                                    src="./assets/images/cardImages/image_01.png"
+                                    alt="news-card"
+                                />
+                            </div>
+                            <div class="content">
+                                <span class="date">2 августа, 2019</span>
+                                <h3 class="title">
+                                    Лесные огоньки: история одной фотографии
+                                </h3>
+                                <p class="text">
+                                    ЗФотограф отвлеклась от освещения суровой
+                                    политической реальности Мексики, чтобы
+                                    запечатлеть ускользающую красоту одного из
+                                    местных чудес природы.
+                                </p>
+                                <span class="source">Медуза</span>
+                            </div>
+                            <div class="action">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"
+                                        fill="#B6BCBF"
+                                    />
+                                </svg>
+                                <div class="action-wraning">
+                                    Убрать из сохранённых
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-card">
+                            <div class="img-wrapper">
+                                <img
+                                    src="./assets/images/cardImages/image_03.png"
+                                    alt="news-card"
+                                />
+                            </div>
+                            <div class="content">
+                                <span class="date">2 августа, 2019</span>
+                                <h3 class="title">
+                                    Национальное достояние – парки
+                                </h3>
+                                <p class="text">
+                                    В 2016 году Америка отмечала важный юбилей:
+                                    сто лет назад здесь начала складываться
+                                    система национальных парков – охраняемых
+                                    территорий, где и сегодня каждый может
+                                    приобщиться к природе.
+                                </p>
+                                <span class="source">Риа</span>
+                            </div>
+                            <div class="action">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"
+                                        fill="#B6BCBF"
+                                    />
+                                </svg>
+                                <div class="action-wraning">
+                                    Убрать из сохранённых
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <span class="copy">© 2020 Supersite, Powered by News API</span>
+            <div class="actions">
+                <nav class="nav">
+                    <a>Главная</a>
+                    <a href="https://practicum.yandex.ru/">Яндекс.Практикум</a>
+                </nav>
+                <div class="social">
+                    <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M11.9998 1.89473C6.41678 1.89473 1.89453 6.42318 1.89453 12C1.89453 16.4664 4.7915 20.2505 8.80507 21.5904C9.30754 21.6834 9.49364 21.3733 9.49364 21.1003C9.49364 20.8584 9.48744 20.2256 9.48123 19.382C6.67111 19.9899 6.07559 18.0297 6.07559 18.0297C5.61654 16.8634 4.95278 16.5533 4.95278 16.5533C4.03469 15.9267 5.02102 15.9391 5.02102 15.9391C6.03217 16.0136 6.57186 16.9813 6.57186 16.9813C7.47135 18.5259 8.93534 18.0793 9.51225 17.8187C9.6053 17.1674 9.86584 16.7207 10.1512 16.4664C7.90558 16.2121 5.54831 15.3436 5.54831 11.4727C5.54831 10.3685 5.93912 9.46902 6.59047 8.76184C6.48501 8.5075 6.13762 7.47775 6.68972 6.0882C6.68972 6.0882 7.53958 5.81525 9.46882 7.12416C10.2753 6.90084 11.1375 6.78918 11.9998 6.78297C12.8559 6.78918 13.7243 6.90084 14.5308 7.12416C16.46 5.81525 17.3099 6.0882 17.3099 6.0882C17.862 7.47775 17.5146 8.5075 17.4091 8.76184C18.0543 9.46902 18.4451 10.3685 18.4451 11.4727C18.4451 15.356 16.0816 16.2059 13.8298 16.4602C14.1896 16.7704 14.5184 17.3907 14.5184 18.3336C14.5184 19.6859 14.5059 20.7715 14.5059 21.1065C14.5059 21.3795 14.6858 21.6896 15.2007 21.5904C19.2143 20.2505 22.1051 16.4664 22.1051 12.0062C22.1051 6.42318 17.5828 1.89473 11.9998 1.89473Z"
+                            fill="#191717"
+                        />
+                    </svg>
+                    <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g clip-path="url(#clip0_43236_230)">
+                            <path
+                                d="M18.8958 0H1.10417C0.494167 0 0 0.494167 0 1.10417V18.8967C0 19.5058 0.494167 20 1.10417 20H10.6833V12.255H8.07667V9.23667H10.6833V7.01083C10.6833 4.4275 12.2608 3.02083 14.5658 3.02083C15.67 3.02083 16.6183 3.10333 16.895 3.14V5.84L15.2967 5.84083C14.0433 5.84083 13.8008 6.43667 13.8008 7.31V9.2375H16.79L16.4008 12.2558H13.8008V20H18.8975C19.5058 20 20 19.5058 20 18.8958V1.10417C20 0.494167 19.5058 0 18.8958 0V0Z"
+                                fill="black"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_43236_230">
+                                <rect width="20" height="20" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>

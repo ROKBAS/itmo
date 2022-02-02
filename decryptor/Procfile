@@ -1,0 +1,1 @@
+web: gunicorn decrypt:application --worker-class aiohttp.worker.GunicornUVLoopWebWorker

@@ -1,0 +1,8 @@
+{
+  "headers":{
+    "/*":{
+      "X-Author":"vandeer",
+      "Access-Control-Allow-Origin":"*"
+    }
+  }
+}

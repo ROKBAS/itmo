@@ -1,0 +1,26 @@
+{
+  "name": "d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node ./index.js --experimental-modules",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfrsnk/checkTaskDecoding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfrsnk/checkTaskDecoding/issues"
+  },
+  "homepage": "https://github.com/wfrsnk/checkTaskDecoding#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "form-data": "^4.0.0"
+  }
+}

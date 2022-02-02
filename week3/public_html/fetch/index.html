@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <input type="text" id="inp">
+        <button id="bt" onclick="fetchtext();"></button>
+        <script>
+            async function fetchtext(){
+                let Response = await fetch(document.getElementById("inp").value);
+                document.getElementById("inp").value = '';
+                document.getElementById("inp").value = await Response.text();
+            }
+        </script>
+    </body>
+
+</html>
